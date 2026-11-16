@@ -1,6 +1,26 @@
-# E-Commerce Public Dataset Analysis & Dashboard
+# E-Commerce Public Dataset Analysis & Dashboard (Olist)
 
-Proyek analisis data dan pembuatan dashboard interaktif menggunakan **E-Commerce Public Dataset (Olist)** untuk mengevaluasi performa kategori produk serta hubungan antara lama waktu pengiriman terhadap kepuasan pelanggan (*review score*).
+Dashboard interaktif berbasis Streamlit untuk menganalisis performa kategori produk (berdasarkan jumlah pesanan dan total pendapatan dalam BRL) serta pengaruh lama waktu pengiriman terhadap kepuasan pelanggan (*review score*).
+
+## Live Dashboard
+
+Aplikasi dapat diakses secara daring melalui tautan berikut:
+- [Olist E-Commerce Dashboard](https://ecommerce-dashboard-zahwa.streamlit.app/)
+
+---
+
+## Cara Menjalankan Dashboard Secara Lokal
+
+### 1. Prasyarat
+Pastikan Anda sudah menginstal **Python 3.9+** (atau Anaconda/Miniconda) pada perangkat Anda.
+
+### 2. Instalasi Dependensi
+Buka terminal (Command Prompt, PowerShell, atau Terminal VS Code), arahkan ke folder utama `submission/`, lalu jalankan perintah berikut untuk menginstal seluruh *library* yang dibutuhkan:
+
+**Menggunakan `pip`:**
+```bash
+cd submission
+pip install -r requirements.txt
 
 ## Struktur Direktori
 
