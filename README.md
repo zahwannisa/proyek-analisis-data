@@ -11,17 +11,42 @@ Aplikasi dapat diakses secara daring melalui tautan berikut:
 
 ## Cara Menjalankan Dashboard Secara Lokal
 
-### 1. Prasyarat
-Pastikan Anda sudah menginstal **Python 3.9+** (atau Anaconda/Miniconda) pada perangkat Anda.
+Ikuti langkah-langkah berikut untuk menyiapkan *virtual environment*, menginstal *library* yang dibutuhkan, dan menjalankan aplikasi dashboard di perangkat lokal Anda:
 
-### 2. Instalasi Dependensi
-Buka terminal (Command Prompt, PowerShell, atau Terminal VS Code), arahkan ke folder utama `submission/`, lalu jalankan perintah berikut untuk menginstal seluruh *library* yang dibutuhkan:
+### Opsi 1: Menggunakan `venv` (Python Bawaan)
 
-**Menggunakan `pip`:**
-```bash
-cd submission
-pip install -r requirements.txt
-```
+1. **Masuk ke direktori utama proyek (`submission/`):**
+   ```bash
+   cd submission
+   ```
+
+2. **Buat *virtual environment* baru:**
+   ```bash
+   python -m venv venv
+   ```
+
+3. **Aktifkan *virtual environment*:**
+   - **Windows (Command Prompt / PowerShell):**
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **macOS / Linux:**
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Instal seluruh *library* yang dibutuhkan dari `requirements.txt`:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Jalankan aplikasi dashboard Streamlit:**
+   ```bash
+   streamlit run dashboard/dashboard.py
+   ```
+
+Setelah perintah `streamlit run dashboard/dashboard.py` dijalankan, dashboard akan otomatis terbuka pada *browser* Anda di alamat `http://localhost:8501`.
+
 ---
 
 ## Struktur Direktori
