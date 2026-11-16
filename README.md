@@ -21,6 +21,8 @@ Buka terminal (Command Prompt, PowerShell, atau Terminal VS Code), arahkan ke fo
 ```bash
 cd submission
 pip install -r requirements.txt
+```
+---
 
 ## Struktur Direktori
 
